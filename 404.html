@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>N.A.N.A. – webnana.org</title>
+<link rel="canonical" href="https://webnana.org/index-ca.html">
+<meta http-equiv="refresh" content="0; url=https://webnana.org/index-ca.html">
+<script>
+  // webnana.cat redirige a webnana.org conservando la página: webnana.cat/tienda.html -> webnana.org/tienda.html
+  (function () {
+    var ruta = location.pathname + location.search + location.hash;
+    var destino = (location.pathname === '/' || location.pathname === '/index.html')
+      ? 'https://webnana.org/index-ca.html' + location.search + location.hash
+      : 'https://webnana.org' + ruta;
+    location.replace(destino);
+  })();
+</script>
+<style>body{font-family:system-ui,sans-serif;color:#1E3445;background:#E3F6F4;display:grid;place-items:center;min-height:100vh;margin:0;text-align:center}a{color:#2F5F80;font-weight:700}</style>
+</head>
+<body>
+<p>El web de N.A.N.A. és ara a <a href="https://webnana.org/index-ca.html">webnana.org</a></p>
+</body>
+</html>
